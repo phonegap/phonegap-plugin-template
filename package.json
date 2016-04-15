@@ -1,35 +1,36 @@
 {
     "name": "cordova-plugin-template",
-    "description": "This repo is a template for starting a new plugin.",
+    "description": "",
     "version": "0.0.1",
-    "homepage": "http://github.com/macdonst/cordova-plugin-template#readme",
+    "homepage": "",
     "repository": {
         "type": "git",
-        "url": "git://github.com/macdonst/cordova-plugin-template.git"
+        "url": ""
     },
     "bugs": {
-        "url": "https://github.com/macdonst/cordova-plugin-template/issues"
+        "url": ""
     },
     "cordova": {
         "id": "cordova-plugin-template",
         "platforms": [
             "ios",
             "android",
-            "browser"
+            "windows"
         ]
     },
     "keywords": [
         "ecosystem:cordova",
-        "ecosystem:phonegap",
-        "cordova-ios",
-        "cordova-android",
-        "cordova-browser"
+        "ecosystem:phonegap"
+        // ,
+        // "cordova-ios",
+        // "cordova-android",
+        // "cordova-windows"
     ],
     "engines":{ 
         "cordova" : ">=3.0.0"
     },
-    "author": "Adobe PhoneGap Team",
-    "license": "APL",
+    "author": "",
+    "license": "",
     "scripts": {
         "test": "jasmine-node --color spec"
     },
