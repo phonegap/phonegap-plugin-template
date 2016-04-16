@@ -1,0 +1,30 @@
+{
+    "name": "cordova-plugin-template",
+    "description": "A module for generating new plugins for use in PhoneGap / Apache Cordova applications",
+    "version": "0.0.1",
+    "main": "./src/plugin-template.js.js",
+    "bin": {
+        "phonegap-plugin-create": "./src/main.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/macdonst/cordova-plugin-template.git"
+    },
+    "bugs": {
+        "url": "https://github.com/macdonst/cordova-plugin-template/issues"
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "ecosystem:phonegap"
+    ],
+    "author": "Adobe PhoneGap Team",
+    "license": "Apache-2.0",
+    "scripts": {
+    },
+    "dependencies": {
+        "minimist": "~1.1.0",
+        "shelljs": "~0.3.0"
+    },
+    "devDependencies": {
+    }
+}
