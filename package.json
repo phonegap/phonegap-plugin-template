@@ -2,9 +2,10 @@
     "name": "cordova-plugin-template",
     "description": "A module for generating new plugins for use in PhoneGap / Apache Cordova applications",
     "version": "0.0.1",
-    "main": "./src/plugin-template.js.js",
+    "main": "./src/plugin-template.js",
     "bin": {
-        "phonegap-plugin-create": "./src/main.js"
+        "phonegap-plugin-create": "./src/main.js",
+        "cordova-plugin-create": "./src/main.js"
     },
     "repository": {
         "type": "git",
