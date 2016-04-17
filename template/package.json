@@ -1,0 +1,40 @@
+{
+    "name": "cordova-plugin-template",
+    "description": "",
+    "version": "0.0.1",
+    "homepage": "",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "bugs": {
+        "url": ""
+    },
+    "cordova": {
+        "id": "cordova-plugin-template",
+        "platforms": [
+            "ios",
+            "android",
+            "windows"
+        ]
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "ecosystem:phonegap"
+        // ,
+        // "cordova-ios",
+        // "cordova-android",
+        // "cordova-windows"
+    ],
+    "engines":{ 
+        "cordova" : ">=3.0.0"
+    },
+    "author": "",
+    "license": "",
+    "scripts": {
+        "test": "jasmine-node --color spec"
+    },
+    "devDependencies": {
+        "jasmine-node": "1.14.5"
+    }
+}
