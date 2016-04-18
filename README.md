@@ -1,5 +1,5 @@
 
-cordova-plugin-template
+phonegap-plugin-template
 ------------------------
 
 This is a tool for generating new plugins for use in PhoneGap / Apache Cordova applications.
