@@ -1,5 +1,5 @@
 {
-    "name": "cordova-plugin-template",
+    "name": "PLUGIN_ID",
     "description": "",
     "version": "0.0.1",
     "homepage": "",
@@ -11,7 +11,7 @@
         "url": ""
     },
     "cordova": {
-        "id": "cordova-plugin-template",
+        "id": "PLUGIN_ID",
         "platforms": [
             "ios",
             "android",
