@@ -14,7 +14,7 @@ var cordova = require('./helper/cordova'),
  * Specification.
  */
 
-describe('cordova-plugin-template', function () {
+describe('phonegap-plugin-template', function () {
     beforeEach(function () {
         execWin = jasmine.createSpy();
         execSpy = spyOn(cordova.required, 'cordova/exec').andCallFake(execWin);

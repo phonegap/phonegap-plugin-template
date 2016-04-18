@@ -2,8 +2,8 @@
 
 ## Get the Source
 
-    $ git clone https://github.com/macdonst/cordova-plugin-template
-    $ cd cordova-plugin-template/
+    $ git clone https://github.com/phonegap/phonegap-plugin-template
+    $ cd phonegap-plugin-template/
 
 ## Join the Discussion
 
@@ -38,5 +38,5 @@ Use an ordinary semver tag:
 - 1.0.0
 
 
-[issue-url]: https://github.com/macdonst/cordova-plugin-template/issues
-[filter-url]: https://github.com/macdonst/cordova-plugin-template/issues?labels=discussion&page=1&state=open
+[issue-url]: https://github.com/phonegap/phonegap-plugin-template/issues
+[filter-url]: https://github.com/phonegap/phonegap-plugin-template/issues?labels=discussion&page=1&state=open

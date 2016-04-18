@@ -1,5 +1,5 @@
 {
-    "name": "cordova-plugin-template",
+    "name": "phonegap-plugin-template",
     "description": "A module for generating new plugins for use in PhoneGap / Apache Cordova applications",
     "version": "0.0.1",
     "main": "./src/plugin-template.js",
@@ -9,10 +9,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/macdonst/cordova-plugin-template.git"
+        "url": "git://github.com/phonegap/phonegap-plugin-template.git"
     },
     "bugs": {
-        "url": "https://github.com/macdonst/cordova-plugin-template/issues"
+        "url": "https://github.com/phonegap/phonegap-plugin-template/issues"
     },
     "keywords": [
         "ecosystem:cordova",
