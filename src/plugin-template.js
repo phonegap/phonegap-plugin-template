@@ -12,6 +12,7 @@ function getTemplatePath() {
 
 
 module.exports = {
+
     create:function(destPath,name,id,license) {
 
         var templatePath = getTemplatePath();
@@ -30,9 +31,10 @@ module.exports = {
             if (fs.lstatSync(fileName).isFile()) {
                 var contents = fs.readFileSync(fileName, 'utf-8');
                 contents = contents.replace("PLUGIN_NAME",name);
+                contents = contents.replace("PLUGIN_LOWER_NAME",name.toLowerCase());
                 contents = contents.replace("PLUGIN_ID",id);
-
                 contents = contents.replace("PLUGIN_LICENSE",license);
+                contents = contents.replace("PLUGIN_LOWER_ID",id.toLowerCase());
                 fs.writeFileSync(fileName, contents);
             }
         }

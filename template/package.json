@@ -1,5 +1,5 @@
 {
-    "name": "PLUGIN_ID",
+    "name": "PLUGIN_LOWER_NAME",
     "description": "",
     "version": "0.0.1",
     "homepage": "",
@@ -21,10 +21,6 @@
     "keywords": [
         "ecosystem:cordova",
         "ecosystem:phonegap"
-        // ,
-        // "cordova-ios",
-        // "cordova-android",
-        // "cordova-windows"
     ],
     "engines":{
         "cordova" : ">=3.0.0"
