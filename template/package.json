@@ -1,5 +1,5 @@
 {
-    "name": "PLUGIN_ID",
+    "name": "PLUGIN_LOWER_NAME",
     "description": "",
     "version": "0.0.1",
     "homepage": "",
@@ -26,7 +26,7 @@
         // "cordova-android",
         // "cordova-windows"
     ],
-    "engines":{ 
+    "engines":{
         "cordova" : ">=3.0.0"
     },
     "author": "",
