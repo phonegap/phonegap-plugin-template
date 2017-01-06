@@ -26,11 +26,11 @@
         // "cordova-android",
         // "cordova-windows"
     ],
-    "engines":{ 
+    "engines":{
         "cordova" : ">=3.0.0"
     },
     "author": "",
-    "license": "",
+    "license": "PLUGIN_LICENSE",
     "scripts": {
         "test": "jasmine-node --color spec"
     },
