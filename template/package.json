@@ -21,10 +21,6 @@
     "keywords": [
         "ecosystem:cordova",
         "ecosystem:phonegap"
-        // ,
-        // "cordova-ios",
-        // "cordova-android",
-        // "cordova-windows"
     ],
     "engines":{
         "cordova" : ">=3.0.0"
