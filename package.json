@@ -1,30 +1,30 @@
 {
-    "name": "phonegap-plugin-template",
-    "description": "A module for generating new plugins for use in PhoneGap / Apache Cordova applications",
-    "version": "0.0.1",
-    "main": "./src/plugin-template.js",
-    "bin": {
-        "phonegap-plugin-create": "./src/main.js",
-        "cordova-plugin-create": "./src/main.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/phonegap/phonegap-plugin-template.git"
-    },
-    "bugs": {
-        "url": "https://github.com/phonegap/phonegap-plugin-template/issues"
-    },
-    "keywords": [
-        "ecosystem:cordova",
-        "ecosystem:phonegap"
-    ],
-    "author": "Adobe PhoneGap Team",
-    "license": "Apache-2.0",
-    "scripts": {
-    },
-    "dependencies": {
-        "shelljs": "~0.3.0"
-    },
-    "devDependencies": {
-    }
+  "name": "phonegap-plugin-template",
+  "description": "A module for generating new plugins for use in PhoneGap / Apache Cordova applications",
+  "version": "0.0.1",
+  "main": "./src/plugin-template.js",
+  "bin": {
+    "phonegap-plugin-create": "./src/main.js",
+    "cordova-plugin-create": "./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/phonegap/phonegap-plugin-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phonegap/phonegap-plugin-template/issues"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "ecosystem:phonegap"
+  ],
+  "author": "Adobe PhoneGap Team",
+  "license": "Apache-2.0",
+  "scripts": {},
+  "dependencies": {
+    "inquirer": "^2.0.0",
+    "shelljs": "~0.3.0",
+    "validate-npm-package-license": "^3.0.1"
+  },
+  "devDependencies": {}
 }
