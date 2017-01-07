@@ -18,6 +18,7 @@ module.exports = {
         var templatePath = getTemplatePath();
         // copy tempate files over
         shell.cp('-r',templatePath + "/.",destPath);
+        var prev_cwd = process.cwd();
         // go there, and get a list of all the files
         shell.cd(destPath);
         var files = shell.find('.');
@@ -38,6 +39,8 @@ module.exports = {
                 fs.writeFileSync(fileName, contents);
             }
         }
+
+        shell.cd(prev_cwd);
 
         // TODO: file names should be replacable as well.
 
