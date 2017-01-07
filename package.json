@@ -20,11 +20,16 @@
   ],
   "author": "Adobe PhoneGap Team",
   "license": "Apache-2.0",
-  "scripts": {},
+  "scripts": {
+    "test": "node node_modules/jasmine/bin/jasmine --color **/*[sS]pec.js"
+  },
   "dependencies": {
     "inquirer": "^2.0.0",
     "shelljs": "~0.3.0",
     "validate-npm-package-license": "^3.0.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jasmine": "^2.5.2",
+    "jshint": "^2.9.4"
+  }
 }
