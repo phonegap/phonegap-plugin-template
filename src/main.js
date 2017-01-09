@@ -25,7 +25,7 @@ function main() {
     }
     else {
         showHelp();
-        process.exit(1);
+        process.exitCode = 1;
     }
 }
 
