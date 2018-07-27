@@ -33,9 +33,15 @@ module.exports = {
                 var contents = fs.readFileSync(fileName, 'utf-8');
                 contents = contents.replace("PLUGIN_NAME",name);
                 contents = contents.replace("PLUGIN_LOWER_NAME",name.toLowerCase());
-                contents = contents.replace("PLUGIN_ID",id);
                 contents = contents.replace("PLUGIN_LICENSE",license);
-                contents = contents.replace("PLUGIN_LOWER_ID",id.toLowerCase());
+                if(id != undefined){
+               		contents = contents.replace("PLUGIN_ID",id);
+               		contents = contents.replace("PLUGIN_LOWER_ID",id.toLowerCase());
+            	}else{
+            		contents = contents.replace("PLUGIN_ID",name.toLowerCase());
+               		contents = contents.replace("PLUGIN_LOWER_ID",name.toLowerCase());
+            	}
+
                 fs.writeFileSync(fileName, contents);
             }
         }
