@@ -13,13 +13,20 @@ How to use it
     npm install -g phonegap/phonegap-plugin-template
 
     // use it
-    // Usage: phonegap-plugin-create DIRECTORY NAME
+    // Usage: phonegap-plugin-create DIRECTORY NAME ID License
     // DIRECTORY : relative or absolute path to create the plugin in
-    // Note: DIRECTORY will be created if it does not exist.
-    // NAME : a name for your plugin, ex. cordova-plugin-myplugin    
+    //// Note: DIRECTORY will be created if it does not exist.
+    // NAME : a name for your plugin, ex. cordova-plugin-myplugin  
+    // ID : the id of your plugin
+    // LICENSE: the license for your app, default is MIT
     
-    phonegap-plugin-create ~/MyNewPlugin MyNewPlugin
+    //basic usage using directory and name params only
+    //plugin id will be set to plugin name
+    //will prompt for license    
+    phonegap-plugin-create ~/MyNewPlugin MyNewPlugin 
     
+    //full usage using directory, name, id and license params    
+    phonegap-plugin-create ~/MyNewPlugin MyNewPlugin PluginID PluginLicense
  
 Use it as a module
 ===
